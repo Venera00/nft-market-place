@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  width: 1280px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav__link,
+.header-btn__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.header__btn {
+  background-color: #a259ff;
+  width: 152px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-btn__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.discover {
+  height: 704px;
+  padding: 80px 115px 80px 115px;
+  display: flex;
+  row-gap: 30px;
+}
+
+.discover__content {
+  width: 510px;
+  height: 544px;
+}
+
+.discover-content__title {
+  font-weight: 600;
+  font-size: 67px;
+  padding-bottom: 20px;
+}
+
+.discover-content__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.discover-content__btn {
+  width: 224px;
+  height: 60px;
+  background-color: #a259ff;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.discover-content__btn a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.discover-content__rate {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.discover__img {
+  background-color: #3b3b3b;
+  width: 510px;
+  height: 510px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.rate__title {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.rate__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.discover-img__title {
+  padding: 10px 0 22px 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.discover-img__subtitle {
+  display: flex;
+  gap: 12px;
+  padding-left: 20px;
+}
+
+.discover-img__subtitle p {
+  font-size: 16px;
+  font-weight: 400;
+}
