@@ -13,75 +13,212 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <img
-        class="header__logo"
-        src="./assets/logo_main.png"
-        alt="Logo of marketplace"
-      />
-      <nav class="nav">
-        <ul class="nav__ul">
-          <li nav__li>
-            <a href="#" class="nav__link">Marketplace</a>
-          </li>
-          <li nav__li>
-            <a href="#" class="nav__link">Rankings</a>
-          </li>
-          <li nav__li>
-            <a href="#" class="nav__link">Connect a wallet</a>
-          </li>
-        </ul>
-        <button class="header__btn">
-          <a href="#" class="header-btn__link">
-            <img
-              class="header-btn__img"
-              src="./assets/User.png"
-              alt="User's photo"
-            />
-            <p class="header-btn__title">Sign Up</p>
-          </a>
-        </button>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__logo-link"
+          ><img
+            class="header__logo"
+            src="./assets/logo_main.png"
+            alt="Logo of marketplace"
+        /></a>
 
-    <section class="discover">
-      <div class="discover__content">
-        <h1 class="discover-content__title">
-          Discover <br />
-          digital art & <br />
-          Collect NFTs
-        </h1>
-        <p class="discover-content__subtitle">
-          NFT marketplace UI created with Anima for Figma. Collect, buy and sell
-          art from more than 20k NFT artists.
-        </p>
-        <button class="discover-content__btn">
-          <img src="./assets/RocketLaunch.png" alt="The Rocket" />
-          <a href="#">Get started</a>
-        </button>
-        <div class="discover-content__rate">
-          <div class="rate__info">
-            <h4 class="rate__title">240k+</h4>
-            <p class="rate__subtitle">Total Sale</p>
-          </div>
-          <div class="rate__info">
-            <h4 class="rate__title">100k+</h4>
-            <p class="rate__subtitle">Auctions</p>
-          </div>
-          <div class="rate__info">
-            <h4 class="rate__title">240k+</h4>
-            <p class="rate__subtitle">Artists</p>
+        <nav class="nav">
+          <ul class="nav__ul">
+            <li class="nav__li">
+              <a href="#" class="nav__link">Marketplace</a>
+            </li>
+            <li class="nav__li">
+              <a href="#" class="nav__link">Rankings</a>
+            </li>
+            <li class="nav__li">
+              <a href="#" class="nav__link">Connect a wallet</a>
+            </li>
+          </ul>
+          <button class="header__btn">
+            <a href="#" class="header-btn__link">
+              <img
+                class="header-btn__img"
+                src="./assets/User.png"
+                alt="User's photo"
+              />
+              <p class="header-btn__title">Sign Up</p>
+            </a>
+          </button>
+        </nav>
+      </header>
+
+      <section class="discover">
+        <div class="discover__content">
+          <h1 class="discover-content__title">
+            Discover <br />
+            digital art & <br />
+            Collect NFTs
+          </h1>
+          <p class="discover-content__subtitle">
+            NFT marketplace UI created with Anima for Figma. Collect, buy and
+            sell art from more than 20k NFT artists.
+          </p>
+          <button class="discover-content__btn">
+            <img src="./assets/RocketLaunch.png" alt="The Rocket" />
+            <a href="#">Get started</a>
+          </button>
+          <div class="discover-content__rate">
+            <div class="rate__info">
+              <h4 class="rate__title">240k+</h4>
+              <p class="rate__subtitle">Total Sale</p>
+            </div>
+            <div class="rate__info">
+              <h4 class="rate__title">100k+</h4>
+              <p class="rate__subtitle">Auctions</p>
+            </div>
+            <div class="rate__info">
+              <h4 class="rate__title">240k+</h4>
+              <p class="rate__subtitle">Artists</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="discover__img">
-        <img src="./assets/Image Placeholder.png" alt="Placeholder" />
-        <h5 class="discover-img__title">Space Walking</h5>
-        <div class="discover-img__subtitle">
-          <img src="./assets/Asset 12 2.png" alt="Animakid" />
-          <p>Animakid</p>
+        <div class="discover__img">
+          <img src="./assets/Image Placeholder.png" alt="Placeholder" />
+          <h5 class="discover-img__title">Space Walking</h5>
+          <div class="discover-img__subtitle">
+            <img src="./assets/Asset 12 2.png" alt="Animakid" />
+            <p>Animakid</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="section__trend">
+        <div class="trend__wrapper">
+          <h3 class="trend__title">Trending Collection</h3>
+          <p class="trend__subtitle">
+            Checkout our weekly updated trending collection.
+          </p>
+
+          <div class="trend-card__wrapper">
+            <div class="trend__card">
+              <a href="#" class="trend__primary-img">
+                <img
+                  src="./assets/Primary Photo Placeholder.png"
+                  alt="Photo of dog"
+                  class="trend__card-scale"
+                />
+              </a>
+              <div class="trend-card__items">
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder.png"
+                    alt="photo of animal"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder 2.png"
+                    alt="photo of animal"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Number of additional NFTs.png"
+                    alt="Amount of items"
+                    class="trend__card-scale"
+                /></a>
+              </div>
+              <h5 class="trend-card__title">DSGN Animals</h5>
+              <div class="trend-card__avatar">
+                <img src="./assets/Avatar.png" alt="Avatar" />
+                <p class="trend-card__subtitle">MrFox</p>
+              </div>
+            </div>
+
+            <div class="trend__card">
+              <a href="#" class="trend__primary-img">
+                <img
+                  src="./assets/Primary Photo Placeholder Mushroom.png"
+                  alt="Photo of mushroom"
+                  class="trend__card-scale"
+                />
+              </a>
+              <div class="trend-card__items">
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder Mushroom.png"
+                    alt="photo of mushroom"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder Mushroom2.png"
+                    alt="photo of mushroom"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Number of additional NFTs.png"
+                    alt="Amount of items"
+                    class="trend__card-scale"
+                /></a>
+              </div>
+              <h5 class="trend-card__title">Magic Mushrooms</h5>
+              <div class="trend-card__avatar">
+                <img src="./assets/Avatar2.png" alt="Avatar" />
+                <p class="trend-card__subtitle">Shroomie</p>
+              </div>
+            </div>
+
+            <div class="trend__card">
+              <a href="#" class="trend__primary-img">
+                <img
+                  src="./assets/Primary Photo Placeholder Person.png"
+                  alt="Photo of Robot"
+                  class="trend__card-scale"
+                />
+              </a>
+              <div class="trend-card__items">
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder Person.png"
+                    alt="Photo of robot"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Secondary Photo Placeholder Person2.png"
+                    alt="Photo of robot"
+                    class="trend__card-scale"
+                /></a>
+                <a href="#" class="trend__secondary-img"
+                  ><img
+                    src="./assets/Number of additional NFTs.png"
+                    alt="Amount of items"
+                    class="trend__card-scale"
+                /></a>
+              </div>
+              <h5 class="trend-card__title">Disco Machines</h5>
+              <div class="trend-card__avatar">
+                <img src="./assets/Avatar3.png" alt="Avatar" />
+                <p class="trend-card__subtitle">BeKind2Robots</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__creators">
+        <div class="creators__header-wrapper">
+          <div>
+            <h3 class="creators__title">Top creators</h3>
+            <p class="creators__subtitle">
+              Checkout Top Rated Creators on the NFT Marketplace
+            </p>
+          </div>
+          <a href="#" class="creators__link">
+            <button class="creators__btn">
+              <img src="./assets/RocketLaunch purple.png" alt="The rocket" />
+              <p>View Rankings</p>
+            </button>
+          </a>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
