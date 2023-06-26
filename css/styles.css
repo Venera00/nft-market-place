@@ -122,7 +122,8 @@ a {
   cursor: pointer;
 }
 
-.discover-content__btn:hover {
+.discover-content__btn:hover,
+.nft__btn:hover {
   transform: scale(0.9);
   transition: all 0.3s ease;
 }
@@ -264,4 +265,145 @@ a {
 .creators__btn:hover {
   transform: scale(0.9);
   transition: all 0.3s ease;
+}
+
+.creators__cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 60px 0 80px 0;
+}
+
+.creators__card {
+  position: relative;
+  width: 240px;
+  height: 238px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+}
+
+.creators__card:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.creators-card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.creators-card__imgs {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.creators__card h5 {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 0 5px 0;
+}
+
+.creators-card__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card__desc {
+  color: #858584;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section__categories {
+  margin: 186px 115px 80px 115px;
+  height: 928px;
+}
+
+.categories__title {
+  font-weight: 600;
+  font-size: 38px;
+  margin-bottom: 60px;
+}
+
+.categories__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.categories__card {
+  width: 240px;
+  height: 316px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  position: relative;
+}
+
+.categories__card:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.categories-card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.categories-card__title {
+  font-weight: 600;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.section__nft {
+  height: 780px;
+  margin: 80px 115px 80px 115px;
+}
+
+.nft-desc__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nft__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 187px;
+  height: 60px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px #a259ff solid;
+}
+
+.nft__title {
+  font-weight: 600;
+  font-size: 38px;
+  padding-bottom: 10px;
+}
+
+.nft__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 60px;
 }
