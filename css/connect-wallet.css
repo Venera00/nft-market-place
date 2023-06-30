@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.connect-wallet {
+  height: 642px;
+  display: flex;
+  gap: 60px;
+}
+
+.connect-wallet__container {
+}
+
+.connect-wallet__title {
+  font-weight: 600;
+  font-size: 51px;
+  margin-top: 100px;
+}
+
+.connect-wallet__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.connect-wallet__card {
+  width: 320px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #3b3b3b;
+  border: 1px solid #a259ff;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.connect-wallet__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.connect-wallet__card:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 22px;
+}

@@ -712,6 +712,10 @@ a {
   background-color: #3b3b3b;
 }
 
+.form-container__inline {
+  display: flex;
+}
+
 .footer__wrapper {
   display: flex;
   align-items: center;
