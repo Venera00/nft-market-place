@@ -1,0 +1,118 @@
+.create-account__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.form__title {
+  font-weight: 600;
+  font-size: 51px;
+}
+
+.form__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.create-account__form_wrapper {
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+}
+
+.create-account-form__item {
+  width: 330px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2b2b2b;
+  padding-left: 40px;
+  border-radius: 20px;
+  border: none;
+  border: none;
+  position: relative;
+  background: url("../assets/Username.png") no-repeat center left;
+  left: 12px;
+  background-color: #fff;
+}
+
+.create-account-form__item::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2b2b2b;
+}
+
+.create-account-form__label {
+  margin-top: 40px;
+}
+
+.form-item__email {
+  background: url("../assets/email-placeholder.png") no-repeat center left;
+  background-color: #fff;
+}
+
+.form-item__pswrd {
+  background: url("../assets/LockKey-placeholder.png") no-repeat center left;
+  background-color: #fff;
+}
+
+.form-item__conf-pswrd {
+  background: url("../assets/LockKey-placeholder.png") no-repeat center left;
+  background-color: #fff;
+}
+
+.create-account__btn {
+  width: 330px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #a259ff;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.create-account__link:hover,
+.create-account__btn:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 834px) {
+  .create-account__wrapper {
+    gap: 30px;
+  }
+  .create-accaunt__main-img {
+    width: 397px;
+    height: 615px;
+  }
+
+  .create-account-form__item {
+    width: 325px;
+  }
+
+  .form__title {
+    font-size: 38px;
+  }
+
+  .form__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .create-account__wrapper {
+    flex-direction: column;
+    height: 747px;
+  }
+
+  .create-accaunt__main-img {
+    width: 375px;
+    height: 232px;
+  }
+}

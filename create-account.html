@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/create-account.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo-link"
+        ><img
+          class="header__logo"
+          src="./assets/logo_main.png"
+          alt="Logo of marketplace"
+      /></a>
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a href="#" class="nav__link">Marketplace</a>
+          </li>
+          <li class="nav__li">
+            <a href="#" class="nav__link">Rankings</a>
+          </li>
+          <li class="nav__li">
+            <a href="#" class="nav__link">Connect a wallet</a>
+          </li>
+        </ul>
+        <button class="header__btn">
+          <a href="#" class="header-btn__link">
+            <img
+              class="header-btn__img"
+              src="./assets/User.png"
+              alt="User's photo"
+            />
+            <p class="header-btn__title">Sign Up</p>
+          </a>
+        </button>
+      </nav>
+      <div class="burger">
+        <div class="burger__line"></div>
+      </div>
+    </header>
+
+    <section class="section-create-account">
+      <div class="create-account__wrapper">
+        <img
+          src="./assets/create-account.png"
+          alt="Create account"
+          class="create-accaunt__main-img"
+        />
+
+        <div class="create-account__form_wrapper">
+          <h3 class="form__title">Create account</h3>
+          <p class="form__subtitle">
+            Welcome! enter your details and start <br />
+            creating, collecting and selling NFTs.
+          </p>
+
+          <div class="create-account-form__label">
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              class="create-account-form__item"
+            />
+          </div>
+
+          <div class="create-account-form__label">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              class="create-account-form__item form-item__email"
+            />
+          </div>
+
+          <div class="create-account-form__label">
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              class="create-account-form__item form-item__pswrd"
+            />
+          </div>
+
+          <div class="create-account-form__label">
+            <input
+              type="password"
+              name="password"
+              placeholder="Confirm Password"
+              class="create-account-form__item form-item__conf-pswrd"
+            />
+          </div>
+
+          <a href="#" class="create-account__link">
+            <button class="create-account__btn">Create account</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer-wrapper__content footer-content-width">
+          <div class="footer-logo__box">
+            <img src="./assets/Storefront.png" alt="Footer logo" />
+            <h5 class="footer__title">NFT Marketplace</h5>
+          </div>
+          <p class="footer__text">
+            NFT marketplace UI created with Anima for Figma.
+          </p>
+          <p class="footer__text">Join our community</p>
+
+          <div class="footer__social">
+            <ul>
+              <li>
+                <a href="https://discord.com/"
+                  ><img src="./assets/DiscordLogo.png" alt="Discord Logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/"
+                  ><img src="./assets/YoutubeLogo.png" alt="Youtube Logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/"
+                  ><img src="./assets/TwitterLogo.png" alt="Twitter Logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/"
+                  ><img src="./assets/InstagramLogo.png" alt="Instagram Logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-wrapper__content">
+          <h5 class="footer__title footer__title-padding">Explore</h5>
+
+          <div class="footer__links">
+            <ul>
+              <li><a href="#" class="footer__text">Marketplace</a></li>
+              <li><a href="#" class="footer__text">Rankings</a></li>
+              <li><a href="#" class="footer__text">Connect a wallet</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-wrapper__content">
+          <h5 class="footer__title">Join our weekly digest</h5>
+          <p class="footer__text">
+            Get exclusive promotions & updates straight to your inbox.
+          </p>
+          <div class="form__container">
+            <div class="form-container__inline">
+              <form action="" method="get">
+                <input
+                  type="email"
+                  name="emailaddress"
+                  placeholder="Enter your email here"
+                  class="email__form email-form__adaptive"
+                />
+              </form>
+              <button type="submit" class="digest__btn digest-btn__adaptive">
+                <p>Subscribe</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="footer__text footer-text__size">
+        Ⓒ NFT Market. Use this template freely.
+      </p>
+    </footer>
+  </body>
+</html>
