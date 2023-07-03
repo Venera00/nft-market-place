@@ -1,0 +1,17 @@
+.animakid-main__img {
+  background-size: cover;
+}
+
+.animakid-imgs__wrapper {
+  position: relative;
+}
+
+.animakid-profile__img {
+  position: absolute;
+  bottom: -50px;
+  left: 40px;
+}
+
+.section__animakid {
+  height: 457px;
+}
